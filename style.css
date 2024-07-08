@@ -1,0 +1,26 @@
+/* Reset default browser styles */
+* {
+   margin : 0;
+   padding: 0;
+   box-sizing:border-box;
+   
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: dodgerblue;
+}
+
+.card{
+    width: auto;
+    background-color:black ;
+    padding: 3rem 2rem;
+    box-shadow:0 0 .5rem rebeccapurple(0,0,0 .8) ;
+}
+
+.property{
+    color:white;
+    display: flex;
+}
